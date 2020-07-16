@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+
+.topnav {
+  overflow: hidden;
+  text-color: black;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: sans-serif; 
+}
+
+.topnav a:hover {
+  text-decoration: underline;
+}
+
+li {
+  display: inline;
+  color: black;
+}
+
+.blue-background {
+  background-color: rgb(40, 127, 226);
+}
+
+.white-text {
+  color:white; 
+}
+
+
+.logo {
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+}
+
+.searchbar {
+  text-align: center;
+  padding: 1px 16px;
+}
+
+.searchbar input[type=text] {
+  background-color: none; 
+  border-color: gray; 
+  float: center;
+  padding: 6px;
+  color: rgba(0,0, 0,.87);
+  margin-top: 5px;
+  margin-bottom: 8px;
+  font-size: 17px;
+}
+
+.buttons {
+  text-align: center;
+  padding: 1px 16px;
+  border: none; 
+}
+
+</style>
+</head>
+
+<body>
+<div>
+  <div>
+    <div class="topnav">
+      <ul>
+        <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+        <li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
+
+        <li style="float:right"><a class="active" href="https://www.account.google.com"><button class="blue-background white-text" type="submit">Sign In</button></a>
+        </li>
+
+        <li style="float:right"><a class="active" href="https://www.google.com/imghp?hl=en&ogbl">Images</a></li>
+        </li>
+
+        <li style="float:right"><a class="active" href="https://www.gmail.com">Gmail</a></li>
+      </ul>
+    </div>
+
+    <div class="logo">
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    </div>
+
+    <div class="searchbar">
+      <input maxlength="2048"  type="text" title="search" placeholder="">
+    </div>
+
+    <div class="buttons">
+      <button type="submit">Google Search</button>
+
+      <button type="submit">I'm feeling lucky</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>
